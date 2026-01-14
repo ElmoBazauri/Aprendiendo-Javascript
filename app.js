@@ -10,13 +10,16 @@ let balance = ingresoMensual - totalGastos;
 
 let tieneAhorro = true
 
-if(balance > 700)
+if(balance > 700){
     tieneAhorro = true
-else(
+} else {
     tieneAhorro = false
-)
+}
 
 console.log(`Ingreso mensual: S/ ${ingresoMensual}`)
 console.log(`Total de gastos: S/ ${totalGastos}`)
 console.log(`Balance final: S/ ${balance}`)
 console.log(`Tiene Ahorro?: ${tieneAhorro}`)
+
+
+holapp
